@@ -1,12 +1,15 @@
 {
-  "name": "coveo-search-ui",
-  "version": "2.10091.2",
-  "description": "Coveo JavaScript Search Framework",
-  "main": "./bin/js/CoveoJsSearch.js",
-  "types": "./bin/ts/CoveoJsSearch.d.ts",
+  "name": "tampikober-framework",
+  "version": "1.0.0",
+  "description": "Tampikober is a JavaScript Search Framework",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
   "scripts": {
     "dev": "gulp dev",
-    "test": "npm run unitTests",
+    "test": "npm run tampikober",
     "test:watch": "gulp devTest",
     "unitTests": "gulp unitTests && gulp coverage",
     "accessibilityTests": "gulp accessibilityTests",
@@ -39,22 +42,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coveo/search-ui.git"
+    "url": "https://github.com/Kafiirr/tampikober-framework"
   },
   "keywords": [
-    "coveo",
-    "search",
-    "ui",
-    "framework",
-    "js",
-    "typescript",
-    "jssearch",
-    "jsui"
+    "tampikober"
   ],
-  "author": "Coveo <sandbox_JSUI@coveo.com> (http://source.coveo.com/)",
+  "author": "kafir",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/coveo/search-ui/issues"
+    "url": "https://github.com/Kafiirr/tampikober-framework/issues"
   },
   "files": [
     "bin",
@@ -68,7 +64,7 @@
     "src",
     "typings"
   ],
-  "homepage": "https://github.com/coveo/search-ui#readme",
+  "homepage": "https://github.com/Kafiirr/tampikober-framework#readme",
   "devDependencies": {
     "@octokit/rest": "^18.0.12",
     "@salesforce-ux/design-system": "^2.6.0",
