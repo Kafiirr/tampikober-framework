@@ -14,7 +14,7 @@ To create a new project, we recommend checking out the [Atomic](https://docs.cov
 
 You should install the Coveo JavaScript Search UI Framework as an npm package:
 
-    npm install --save coveo-search-ui
+    npm i tampikober-framework
 
 All resources will be available under `node_modules/coveo-search-ui/bin`. You can include those in your pages with `<script>` tags. This will make the variable `Coveo` globally available in your page.
 
